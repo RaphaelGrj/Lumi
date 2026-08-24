@@ -29,6 +29,8 @@ En concevant `camera_link`/`protocol`, j'avais d'abord prévu un `Serial1` dédi
 - Le découpage FreeRTOS multi-tâches complet (§9) et le vrai Mood Engine (§11-12, variables continues) restent à faire, volontairement hors de cette passe.
 - Warnings de compilation pré-existants (non introduits ici) : `pin_sscb_sda`/`pin_sscb_scl` dépréciés dans `esp_camera.h` côté vision — cosmétique, à corriger un jour en renommant vers `pin_sccb_*`.
 
+**Commit & push :** `e92ae18` sur `platformio-project`, poussé sur GitHub (`RaphaelGrj/Lumi-Project`). `gh` CLI a été installé en local (`~/.local/bin/gh`, sans sudo) et authentifié via device code (`gh auth login`) pour ce push — réutilisable directement dans une prochaine session (`gh auth status` pour vérifier que le token est toujours valide).
+
 ---
 
 ## 2026-08-24 (session 1) — Initialisation du projet (CLAUDE.md + PROGRESS.md)
